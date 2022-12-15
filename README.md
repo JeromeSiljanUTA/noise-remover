@@ -1,11 +1,3 @@
----
-title: "Signal Processing: MATLAB Filter Design Project"
-author: Jerome Siljan
-date: December 12, 2022
-geometry: margin=2.5cm
-output: pdf_document
----
-
 ## Identifying noise
 In order to filter the noise in the audio file provided (`noisyconversation.wav`), it was important to first identify the frequencies in the file. The MATLAB function `fft` worked perfecty for this since I wanted to use a Fourier transform. After running the audio through the Fourier transform, I got an output that looked like this: 
 
